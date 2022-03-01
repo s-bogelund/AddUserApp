@@ -1,0 +1,60 @@
+.add-user-form {
+    margin-top:1rem;
+}
+
+.add-user-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2rem 4rem 2rem;
+    padding: 1.5rem;
+    color: #ffaaa7;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 255, 0.074);
+    height: 78%;
+    margin-bottom: 5rem;
+}
+
+.add-user-form input {
+    align-self: center;
+    font-size: 1.4rem;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    height: 2.2rem;
+    box-shadow: 1px 1px rgba(0,0,0, 0.26);
+    background: #f8e0ce
+}
+
+.add-user-form input:hover {
+    
+    box-shadow: 2px 2px rgba(0,0,0, 0.26);
+    border: 1px solid #73847Eff;
+}
+
+.add-user-form label {
+    display: inline-block;
+    align-self: center;
+    font-size: 2.3rem;
+    -webkit-text-stroke: 1px #735b4b;
+    
+}
+
+.add-user-form button {
+    display: inline-block;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px rgba(0,0,0, 0.1);
+    width: 12rem;
+    justify-self: center;
+    background: #ffd3b4c4;
+    border-radius: 6px;
+    font-weight: bold;
+    border: .1rem solid #5ca28e;
+}
+
+.add-user-form button:hover {
+    border: .1rem solid #386457;
+    box-shadow: 2px 2px rgba(0,0,0, 0.2);
+}
+  
