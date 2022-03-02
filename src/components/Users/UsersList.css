@@ -11,15 +11,19 @@
 	border: 1px solid black;
 }
 
+@media (max-width: 470px) {
+	.list {
+		max-width: 80%;
+	}
+}
+
 .list ul {
 	display: flex;
-	padding: 1rem 0.1rem;
-	display: block;
-	align-items: center;
+	flex-wrap: wrap;
 	justify-content: center;
+	padding: 1rem 0.1rem;
 	list-style-type: none;
 	min-width: 100%;
-	max-height: 80%;
 	max-width: 35rem;
 }
 
@@ -28,9 +32,8 @@
 	background: #f8e0ce;
 	color: #0f1e19;
 	font-size: 1.4rem;
-	outline: none;
-	max-width: 35rem;
-	min-width: 50%;
+	max-width: 100%;
+	min-width: 90%;
 	border-radius: 6px;
 	border: 1px solid black;
 	margin: 0.5rem;
@@ -41,11 +44,3 @@
 .list li:hover {
 	box-shadow: 3px 3px rgba(1, 37, 81, 0.66);
 }
-
-/*
-/* CSS HEX */
---middle-blue-green: #9dd0cbff;
---melon: #ffaaa7ff;
---magic-mint: #a2dfc7ff;
---opal: #add4c8ff;
---xanadu: #73847eff;
