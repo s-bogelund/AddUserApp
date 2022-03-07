@@ -2,10 +2,9 @@ import { useState } from "react";
 import AddUser from "./components/Users/AddUser";
 import UsersList from "./components/Users/UsersList";
 import "./App.css";
-
+ 
 function App() {
 	const [usersList, setUsersList] = useState([]);
-	let hideList = ``;
 
 	const userAddedHandler = (uName, uAge) => {
 		console.log("hello from app");
