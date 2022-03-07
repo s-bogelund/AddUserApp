@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/AddUserApp/static/css/main.991a5f47.css",
-    "main.js": "/AddUserApp/static/js/main.24b8e36d.js",
-    "index.html": "/AddUserApp/index.html",
-    "main.991a5f47.css.map": "/AddUserApp/static/css/main.991a5f47.css.map",
-    "main.24b8e36d.js.map": "/AddUserApp/static/js/main.24b8e36d.js.map"
+    "main.css": "/static/css/main.991a5f47.css",
+    "main.js": "/static/js/main.24b8e36d.js",
+    "index.html": "/index.html",
+    "main.991a5f47.css.map": "/static/css/main.991a5f47.css.map",
+    "main.24b8e36d.js.map": "/static/js/main.24b8e36d.js.map"
   },
   "entrypoints": [
     "static/css/main.991a5f47.css",
